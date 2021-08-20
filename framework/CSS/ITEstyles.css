@@ -1,0 +1,308 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* IPhone 5  or Above*/
+@media (min-width: 320px) { 
+
+
+  .void-top-15 {
+    margin-top: 17% !important;
+}
+
+
+    .logo {
+        max-width: 150px !important;
+        background-size: inherit;
+    }
+    
+    }
+
+
+/* Nokia 6.1 Plus or Above */
+@media (min-width: 430px) { 
+
+    .logo {
+        max-width: 250px !important;
+        
+    }
+
+    .header {
+        padding-top: 7rem !important;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .header {
+        padding-top: 10rem !important;
+    }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+  .void-top-15 {
+    margin-top: 13% !important;
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .header {
+        padding-top: 10rem !important;
+    }
+
+    .nav-item {
+        margin: 0 2px;
+      }
+ }
+
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1900px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .header {
+        padding-top: 10rem;
+        
+    }
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1900px)  { 
+    .logo {
+        max-width:250px !important;
+        
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #313131;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+.logo {
+
+    max-width: 50% ;
+    
+}
+
+.header {
+
+    padding-bottom: 10%; 
+    padding-top: 5rem;
+}
+
+.card-staff {
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    background-color: white;
+    padding-bottom: 5%;
+    margin-bottom: 1rem;
+  }
+
+.team {
+    cursor: pointer;
+    background: none !important;
+}
+
+.copyright {
+
+    text-decoration: none;
+    cursor: pointer;
+    background: none !important;
+}
+.copyright:hover {
+    text-decoration: none;
+}
+
+.card {
+    background-color: white;
+}
+
+
+.iwhite {
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
+
+.dtex:hover {
+    text-decoration: none;
+    background-color: #008542;
+    color: white;
+}
+
+.category {
+
+    color: white;
+}
+
+
+.hover-me:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+
+.curr-act {
+    color: #008542 !important;
+}
+
+
+.blog-snippet {
+
+    max-height: 200px;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.6em;
+    
+
+}
+.snippet-fade::after {
+    content: '\2026';
+    box-sizing: border-box;
+    position: absolute;
+    width: 96px;
+
+}
+
+.col {
+
+    min-width: auto;
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d
+  }
+  
+  .btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff
+  }
+  
+  
+  .btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1
+  }
+  
+  
+  .btn-outline-instagram {
+    border: 1px solid #dc4a38;
+    color: #dc4a38
+  }
+
+  .btn-outline-youtube {
+    border: 1px solid red;
+    color: red;
+  }
+  
+  .btn-outline-youtube:hover {
+    background: #e52d27;
+    color: #ffffff
+  }
+
+  .btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff
+  }
+  
+  
+  .btn-outline-instagram:hover {
+    background: #e52d27;
+    color: #ffffff
+  }
+  
+  .btn-facebook {
+    background: #3b579d;
+    color: #ffffff
+  }
+  
+  
+  .btn-twitter {
+    background: #2caae1;
+    color: #ffffff
+  }
+
+  .btn-youtube {
+    background: red;
+    color: #ffffff
+  }
+  
+  
+  
+  
+  .btn-instagram {
+    background: #dc4a38;
+    color: #ffffff
+  }
+  
+  .btn-facebook:hover,
+  .btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff
+  }
+  
+  
+  
+  .btn-twitter:hover,
+  .btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+  }
+  
+  
+  .btn-instagram:hover,
+  .btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff
+  }
+  

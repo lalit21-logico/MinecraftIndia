@@ -1,0 +1,166 @@
+@media (min-width: 320px) {
+
+
+    .navbar-brand-wrapper {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+    }
+
+    .inline {
+      display: inline-grid;
+  }
+
+}
+
+
+/* Nokia 6.1 Plus or Above */
+@media (min-width: 430px) { 
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .navbar-brand-wrapper {
+        box-shadow: none !important;
+
+    }
+
+    .inline {
+      display: inherit;
+    }
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+ }
+
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1900px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1900px)  { 
+
+
+}
+
+
+@media (max-width: 991.98px) {
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+
+    .header {
+        padding-top: 10rem !important;
+    }
+    
+    .nav-item {
+        margin: 0 2px;
+      }
+    
+      .sbar {
+      position: fixed;
+      padding-left: 10px;
+    } 
+    
+    }
+    
+    
+    
+    .container-fluid {
+        padding: 0px;
+      padding-top: 3.7rem;
+    }
+    
+    .navbar-brand img {
+        width: 150px !important;
+    }
+    
+    .pub {
+      margin-top: 28px !important;
+    }
+
+    .collapsible-link::before {
+      content: '';
+      width: 14px;
+      height: 2px;
+      background: #333;
+      position: absolute;
+      top: calc(50% - 1px);
+      right: 1rem;
+      display: block;
+      transition: all 0.3s;
+    }
+    
+    /* Vertical line */
+    .collapsible-link::after {
+      content: '';
+      width: 2px;
+      height: 14px;
+      background: #333;
+      position: absolute;
+      top: calc(50% - 7px);
+      right: calc(1rem + 6px);
+      display: block;
+      transition: all 0.3s;
+    }
+    
+    .collapsible-link[aria-expanded='true']::after {
+      transform: rotate(90deg) translateX(-1px);
+    }
+    
+    .collapsible-link[aria-expanded='true']::before {
+      transform: rotate(180deg);
+    }
+
+    
+.para {
+
+  line-height: 1.7em;
+  font-size: inherit;
+
+}
